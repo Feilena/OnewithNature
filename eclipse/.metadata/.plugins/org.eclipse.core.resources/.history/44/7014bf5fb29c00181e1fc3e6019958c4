@@ -1,0 +1,28 @@
+package com.feilena.mods.OWN.proxy;
+
+
+import com.feilena.mods.OWN.item.ownitems;
+
+import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
+public class CommonProxy {
+
+	public void preinit (FMLPreInitializationEvent e) {
+		ownitems.commonPreinit();
+	}
+
+	public void init (FMLInitializationEvent e) {
+
+
+	}
+
+	public void postinit (FMLPostInitializationEvent e) {
+
+		
+	}
+
+
+}

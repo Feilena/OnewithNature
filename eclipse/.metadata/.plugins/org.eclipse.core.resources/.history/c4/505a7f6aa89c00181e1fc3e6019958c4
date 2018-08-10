@@ -1,0 +1,9 @@
+package com.feilena.mods.OWN;
+
+public class ModInfo {
+
+	public static final String NAME = "One with Nature";
+	public static final String MODID = "OWN";
+	public static final String VERSION = "0.0.1a";
+	public static final String PROXYBASE = "com.feilena.mods.OWN.proxy";
+}

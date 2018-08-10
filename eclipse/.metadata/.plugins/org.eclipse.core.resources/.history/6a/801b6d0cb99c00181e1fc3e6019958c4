@@ -1,0 +1,35 @@
+package com.feilena.own.init;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.feilena.own.util.ModInfo;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.Item;
+
+public class ModItems {
+	public static final List<Item> items = new ArrayList<Item>();
+	public static Item spade = new ItemBase("spade");
+	public static Item itemNameGui;
+	
+	public static final void commonPreinit() {
+			spade = registerItem(new Item(), "Spade");
+
+	}
+
+	public static final void clientInit() {
+		for(Item item: items){
+			registerRender(item);
+		}
+	}
+	private static final void registerRender (Item item) {
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(ModInfo.MODID + ":" + item.getRegistryName().getResourcePath(), "inventory"));
+	}
+	private static final Item registerItem(Item spade, String name) {
+			spade.setUnlocalizedName(name);
+			return spade;
+	}
+}
+

@@ -1,0 +1,5 @@
+package com.feilena.own.util.handlers;
+
+public class RegistryHandler {
+
+}

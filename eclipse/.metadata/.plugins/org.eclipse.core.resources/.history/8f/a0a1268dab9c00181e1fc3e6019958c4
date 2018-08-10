@@ -1,0 +1,6 @@
+{
+		"parent": "block/orientable",
+		"textures": {
+			"top": "OWN:blocks/OWNGenerator_top",
+			"side": "OWN:blocks/OWNGenerator_side",
+			"front": ""OWN:blocks/OWNGenerator_front",
