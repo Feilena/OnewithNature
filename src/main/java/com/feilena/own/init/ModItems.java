@@ -43,6 +43,9 @@ public class ModItems {
 	public static Item silicon = new ItemBase("silicon");
 	public static Item molybdenum_ingot = new ItemBase("molybdenum_ingot");
 	
+	//Custom Tool (Spade)
+	public static Item dirt_spade = new ItemBase("dirt_spade");
+	
 	//Tools
 	//public static final ItemSword COPPER_SWORD = new ToolSword("copper_sword", MATERIAL_COPPER);
 	//public static final ItemSpade COPPER_SPADE = new ToolSpade("copper_shovel", MATERIAL_COPPER);

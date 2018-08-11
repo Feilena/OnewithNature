@@ -3,12 +3,14 @@ package com.feilena.own.util.handlers;
 import com.feilena.own.init.ModBlocks;
 import com.feilena.own.init.ModItems;
 import com.feilena.own.util.IHasModel;
+import com.feilena.own.util.compat.OreDictonaryCompat;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
+import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @EventBusSubscriber
@@ -41,5 +43,19 @@ public class RegistryHandler {
 		}
 		
 	}
+	@SubscribeEvent
+	public static void preInitRegistries() {
+		
+	}
 	
+	public static void initRegistries() {
+		OreDictonaryCompat.registerOres();
+	}
+	
+	public static void postInitRegistries() {
+		
+	}
+	public static void serverRegistries(FMLServerStartingEvent event) {
+		
+	}
 }

@@ -1,0 +1,17 @@
+package com.feilena.own.creativetabs;
+
+import net.minecraft.creativetab.CreativeTabs;
+
+public class OWNTab extends CreativeTabs {
+
+	public OWNTab(String label) {
+		super("ownblocks");
+
+	}
+	
+	@Override
+	public Item getTabIconItem() {
+		return null;
+	}
+
+}
