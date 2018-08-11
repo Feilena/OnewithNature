@@ -3,6 +3,7 @@ package com.feilena.own;
 
 import com.feilena.own.proxy.CommonProxy;
 import com.feilena.own.util.ModInfo;
+import com.feilena.own.world.ModWorldGen;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -17,6 +18,8 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStoppedEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.Logger;
 import java.util.Random;
@@ -35,6 +38,7 @@ public class Main {
     @EventHandler
     public static void preInit(FMLPreInitializationEvent e){
         proxy.preinit(e);
+        GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
     }
     @EventHandler
     public static void init(FMLInitializationEvent e) {

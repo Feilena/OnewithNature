@@ -13,6 +13,10 @@ import net.minecraft.item.Item;
 public class ModItems {
 	public static final List<Item> items = new ArrayList<Item>();
 	
+	
+	//Tool Materials
+	//public static final ToolMaterial MATERIAL_COPPER = EnumHelper.addToolMaterial(name, harvestLevel, maxUses, efficiency, damage, enchantablity);
+	
 	//Soil Sample Items/Natural Minerals
 	public static Item dirt_sample = new ItemBase("dirt_sample");
 	public static Item magnesium_powder = new ItemBase("magnesium_powder");
@@ -27,18 +31,24 @@ public class ModItems {
 	public static Item selenium_powder = new ItemBase("selenium_powder");
 	public static Item silicon_dust = new ItemBase("silicon_dust");
 	public static Item molybdenum_powder = new ItemBase("molybdenum_powder");
-	public static Item magnesium = new ItemBase("magnesium");
+	public static Item magnesium_ingot = new ItemBase("magnesium_ingot");
 	public static Item sodium = new ItemBase("sodium");
-	public static Item phosphorous = new ItemBase("phosphorous");
-	public static Item copper = new ItemBase("copper");
-	public static Item manganese = new ItemBase("manganese");
-	public static Item boron = new ItemBase("boron");
-	public static Item zinc = new ItemBase("zinc");
-	public static Item cobalt = new ItemBase("cobalt");
-	public static Item selenium = new ItemBase("selenium");
+	public static Item phosphorous_ingot = new ItemBase("phosphorous_ingot");
+	public static Item copper_ingot = new ItemBase("copper_ingot");
+	public static Item manganese_ingot = new ItemBase("manganese_ingot");
+	public static Item boron_ingot = new ItemBase("boron_ingot");
+	public static Item zinc_ingot = new ItemBase("zinc_ingot");
+	public static Item cobalt_ingot = new ItemBase("cobalt_ingot");
+	public static Item selenium_ingot = new ItemBase("selenium_ingot");
 	public static Item silicon = new ItemBase("silicon");
-	public static Item molybdenum = new ItemBase("molybdenum");
+	public static Item molybdenum_ingot = new ItemBase("molybdenum_ingot");
 	
+	//Tools
+	//public static final ItemSword COPPER_SWORD = new ToolSword("copper_sword", MATERIAL_COPPER);
+	//public static final ItemSpade COPPER_SPADE = new ToolSpade("copper_shovel", MATERIAL_COPPER);
+	//public static final ItemPickaxe COPPER_PICKAXE = new ToolPickaxe("copper_pickaxe", MATERIAL_COPPER);
+	//public static final ItemAxe COPPER_AXE = new ToolAxe("copper_axe", MATERIAL_COPPER);
+	//public static final ItemHoe COPPER_HOE = new ToolHoe("copper_hoe", MATERIAL_COPPER);
 	
 	public static final void commonPreinit() {
 			dirt_sample = registerItem(new Item(), "dirt_sample");

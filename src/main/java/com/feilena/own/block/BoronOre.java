@@ -15,6 +15,13 @@ public BoronOre(String name, Material material) {
 		//setLightLevel(1.0F);
 		//setLightOpacity(1);
 		//setBlockUnbreakable();
+		
+		
 	}
+		//Dropping Custom Items
+		//@Override
+		//public Item getItemDropped(IBlockState state, Random rand, int fortune) {
+			//return ModItems.Name;
+		//}
 
 }
