@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "modid": "own",
+  "name": "One with Nature",
+  "description": "Mod in Development",
+  "version": "0.0.1a",
+  "mcversion": "1.12.2",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Feilena"],
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

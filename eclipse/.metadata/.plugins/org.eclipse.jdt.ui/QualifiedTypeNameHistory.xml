@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="com.feilena.own.block.BlockBase"/>
-<fullyQualifiedTypeName name="net.minecraft.item.ItemBlock"/>
-<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
-<fullyQualifiedTypeName name="com.feilena.own.Main"/>
-<fullyQualifiedTypeName name="net.minecraft.block.SoundType"/>
 <fullyQualifiedTypeName name="com.feilena.own.block.CopperOre"/>
 <fullyQualifiedTypeName name="com.feilena.own.block.PhosphorousOre"/>
 <fullyQualifiedTypeName name="com.feilena.own.block.ManganeseOre"/>
@@ -57,4 +50,14 @@
 <fullyQualifiedTypeName name="mezz.jei.api.recipe.IRecipeCategoryRegistration"/>
 <fullyQualifiedTypeName name="java.lang.ref.Reference"/>
 <fullyQualifiedTypeName name="akka.util.Helpers"/>
+<fullyQualifiedTypeName name="com.feilena.own.block.MagnesiumBlock"/>
+<fullyQualifiedTypeName name="com.feilena.own.block.MolybdenumBlock"/>
+<fullyQualifiedTypeName name="com.feilena.own.block.SeleniumBlock"/>
+<fullyQualifiedTypeName name="com.feilena.own.block.CobaltBlock"/>
+<fullyQualifiedTypeName name="com.feilena.own.block.ZincBlock"/>
+<fullyQualifiedTypeName name="com.feilena.own.block.BoronBlock"/>
+<fullyQualifiedTypeName name="com.feilena.own.block.ManganeseBlock"/>
+<fullyQualifiedTypeName name="com.feilena.own.block.CopperBlock"/>
+<fullyQualifiedTypeName name="com.feilena.own.block.PhosphorousBlock"/>
+<fullyQualifiedTypeName name="com.feilena.own.util.Reference"/>
 </qualifiedTypeNameHistroy>

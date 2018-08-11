@@ -1,0 +1,40 @@
+//Blocks
+tile.sodium_block.name=Sodium Block
+tile.phosphorous_block.name=Phosphorous Block
+tile.copper_block.name=Copper Block
+tile.manganese_block.name=Manganese Block
+tile.boron_block.name=Boron Block
+tile.zinc_block.name=Zinc Block
+tile.cobalt_block.name=Cobalt Block
+tile.selenium_block.name=Selenium Block
+tile.molybdenum_block.name=Molybdenum Block
+
+//Items
+item.dirt_sample.name=Dirt Sample
+item.magnesium_powder.name=Magnesium Powder
+item.sodium.name=Sodium
+item.phosphorous_powder.name=Phosphorous Powder
+item.iron_powder.name=Iron Powder
+item.copper_powder.name=Manganese Powder
+item.boron_powder.name=Boron Powder
+item.zinc_powder.name=Zinc Powder
+item.cobalt_powder.name=Cobalt Powder
+item.selenium_powder.name=Selenium Powder
+item.silicon_dust.name=Silicon Dust
+item.molybdenum_powder.name=Molybdenum Powder
+item.magnesium_powder.name=Magnesium Powder
+item.sodium.name=Sodium
+item.phosphorous_ingot.name=Phosphorous Ingot
+item.copper_ingot.name=Copper Ingot
+item.manganese_ingot.name=Manganese Ingot
+item.boron_ingot.name=Boron Ingot
+item.zinc_ingot.name=Zinc Ingot
+item.cobalt_ingot.name=Cobalt Ingot
+item.selenium_ingot.name=Selenium Ingot
+item.silicon.name=Silicon
+item.molybdenum_ingot.name=Molybdenum Ingot
+
+
+
+//Tabs
+itemGroup.OWNTab.name=One with Nature

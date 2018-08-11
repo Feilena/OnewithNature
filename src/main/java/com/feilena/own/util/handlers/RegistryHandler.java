@@ -30,20 +30,24 @@ public class RegistryHandler {
 	
 	@SubscribeEvent
 	public static void onModelRegister(ModelRegistryEvent event){
-		for(Item item : ModItems.items){
-			if(item instanceof IHasModel){
+		for(Item item : ModItems.items)
+		{
+			if(item instanceof IHasModel)
+			{
 				((IHasModel)item).registerModels();
 			}
 		}
 		
-		for(Block block : ModBlocks.BLOCKS){
-			if(block instanceof IHasModel){
+		for(Block block : ModBlocks.BLOCKS)
+		{
+			if(block instanceof IHasModel)
+			{
 				((IHasModel)block).registerModels();
 			}
 		}
 		
 	}
-	@SubscribeEvent
+
 	public static void preInitRegistries() {
 		
 	}

@@ -25,14 +25,14 @@ public class ModWorldGen implements IWorldGenerator{
 	
 	private void generateOverworld(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkgenerator, IChunkProvider chunkprovider) {
 		//generateOre(ModBlocks.copper_block.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, Y minimum coord (bedrock ~5), Y maximum coord (surface ~64), random.nextInt(5) + 3, 7);
-		generateOre(ModBlocks.copper_block.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 3, 7);
-		generateOre(ModBlocks.phosphorous_block.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 2, 7);
-		generateOre(ModBlocks.magnesium_block.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 2, 7);
-		generateOre(ModBlocks.manganese_block.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 2, 7);
-		generateOre(ModBlocks.boron_block.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 2, 7);
-		generateOre(ModBlocks.zinc_block.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 2, 7);
-		generateOre(ModBlocks.selenium_block.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 2, 7);
-		generateOre(ModBlocks.molybdenum_block.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 2, 7);
+		generateOre(ModBlocks.copper_ore.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 3, 7);
+		generateOre(ModBlocks.phosphorous_ore.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 2, 7);
+		generateOre(ModBlocks.magnesium_ore.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 2, 7);
+		generateOre(ModBlocks.manganese_ore.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 2, 7);
+		generateOre(ModBlocks.boron_ore.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 2, 7);
+		generateOre(ModBlocks.zinc_ore.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 2, 7);
+		generateOre(ModBlocks.selenium_ore.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 2, 7);
+		generateOre(ModBlocks.molybdenum_ore.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 2, 7);
 		
 	}
 	

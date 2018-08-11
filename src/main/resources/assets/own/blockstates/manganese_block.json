@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "own:manganese_block" }
+    }
+}
