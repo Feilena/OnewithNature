@@ -33,6 +33,7 @@ public class ModWorldGen implements IWorldGenerator{
 		generateOre(ModBlocks.zinc_ore.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 2, 7);
 		generateOre(ModBlocks.selenium_ore.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 2, 7);
 		generateOre(ModBlocks.molybdenum_ore.getDefaultState(),world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(5) + 2, 7);
+		generateOre(ModBlocks.cobalt_ore.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 16, 64, random.nextInt(4) + 2, 7);
 		
 	}
 	

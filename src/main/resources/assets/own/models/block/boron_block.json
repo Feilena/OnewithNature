@@ -1,6 +1,6 @@
 {
 	"parent": "block/cube_all",
 	"textures": {
-		"layer0": "own:blocks/boron_block"
+		"all": "own:blocks/boron_block"
 	}
 }

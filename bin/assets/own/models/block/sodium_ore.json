@@ -1,6 +1,6 @@
 {
 	"parent": "block/cube_all",
 	"textures": {
-		"layer0": "own:blocks/sodium_ore"
+		"all": "own:blocks/sodium_ore"
 	}
 }

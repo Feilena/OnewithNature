@@ -1,7 +1,7 @@
 {
 	"parent": "block/cube_all",
 	"textures": {
-		"layer0": "own:blocks/cobalt_block"
+		"all": "own:blocks/cobalt_block"
 	}
 }
 
