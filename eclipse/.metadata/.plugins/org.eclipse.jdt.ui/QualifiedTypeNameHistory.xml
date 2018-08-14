@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.feilena.own.block.ZincOre"/>
-<fullyQualifiedTypeName name="com.feilena.own.block.CobaltOre"/>
-<fullyQualifiedTypeName name="com.feilena.own.block.MolybdenumOre"/>
 <fullyQualifiedTypeName name="com.feilena.own.block.MagnesiumOre"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemSword"/>
@@ -60,4 +57,7 @@
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="com.mojang.authlib.properties.Property"/>
 <fullyQualifiedTypeName name="net.minecraft.client.resources.I18n"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.relauncher.Side"/>
+<fullyQualifiedTypeName name="net.minecraft.util.NonNullList"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.relauncher.SideOnly"/>
 </qualifiedTypeNameHistroy>
