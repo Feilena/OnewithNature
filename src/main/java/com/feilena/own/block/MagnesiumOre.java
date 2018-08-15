@@ -8,7 +8,7 @@ public class MagnesiumOre extends BlockBase {
 public MagnesiumOre(String name, Material material) {
 		super(name, material);
 		
-		setSoundType(SoundType.SAND);
+		setSoundType(SoundType.STONE);
 		setHardness(0.5F);
 		setResistance(2.5F);
 		setHarvestLevel("shovel", 0);

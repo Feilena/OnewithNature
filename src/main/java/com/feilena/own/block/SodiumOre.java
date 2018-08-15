@@ -14,7 +14,7 @@ public class SodiumOre extends BlockBase {
 public SodiumOre(String name, Material material) {
 		super(name, material);
 		
-		setSoundType(SoundType.STONE);
+		setSoundType(SoundType.SAND);
 		setHardness(3.0F);
 		setResistance(15.0F);
 		setHarvestLevel("pickaxe", 2);
@@ -27,7 +27,7 @@ public SodiumOre(String name, Material material) {
 		//Dropping Custom Items
 		@Override
 		public Item getItemDropped(IBlockState state, Random rand, int fortune) {
-			return ModItems.sodium_powder;
+			return ModItems.sodium;
 		}
 		
 		@Override

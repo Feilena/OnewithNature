@@ -4,12 +4,12 @@ import com.feilena.own.Main;
 import com.feilena.own.init.ModItems;
 import com.feilena.own.util.IHasModel;
 
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 public class ItemBase extends Item implements IHasModel {
 	
-	public ItemBase(String name){
+	public ItemBase(String name)
+	{
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(Main.owntab);
@@ -18,6 +18,7 @@ public class ItemBase extends Item implements IHasModel {
 	}
 	@Override
 	public void registerModels() {
+		
 		Main.proxy.registerItemRenderer(this, 0, "inventory");
 		
 	}

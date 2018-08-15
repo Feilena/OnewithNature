@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "own:blocks/molybdenum_block"
+   }
+}

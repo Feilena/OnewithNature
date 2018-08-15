@@ -1,8 +1,6 @@
 package com.feilena.own.init;
 
-import com.feilena.own.items.ItemBase;
 
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
