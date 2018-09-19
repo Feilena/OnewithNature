@@ -122,7 +122,7 @@
         </children>
       </children>
       <children xsi:type="basic:PartStack" xmi:id="_aF6vIpymEeigesgqpOXarg" elementId="stickyFolderRight" containerData="1000" selectedElement="_aF6vJJymEeigesgqpOXarg">
-        <children xsi:type="advanced:Placeholder" xmi:id="_aF6vI5ymEeigesgqpOXarg" elementId="org.eclipse.help.ui.HelpView" ref="_aF3EwJymEeigesgqpOXarg"/>
+        <children xsi:type="advanced:Placeholder" xmi:id="_aF6vI5ymEeigesgqpOXarg" elementId="org.eclipse.help.ui.HelpView" toBeRendered="false" ref="_aF3EwJymEeigesgqpOXarg"/>
         <children xsi:type="advanced:Placeholder" xmi:id="_aF6vJJymEeigesgqpOXarg" elementId="org.eclipse.ui.internal.introview" ref="_aF6IEJymEeigesgqpOXarg"/>
         <children xsi:type="advanced:Placeholder" xmi:id="_aF6vJZymEeigesgqpOXarg" elementId="org.eclipse.ui.cheatsheets.views.CheatSheetView" toBeRendered="false" ref="_aF6IEZymEeigesgqpOXarg"/>
       </children>
@@ -137,7 +137,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_hyw9sZy0Eei06YTk6CkIpg" elementId="org.eclipse.help.ui.HelpView"/>
+      <toolbar xmi:id="_hyw9sZy0Eei06YTk6CkIpg" elementId="org.eclipse.help.ui.HelpView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_aF6IEJymEeigesgqpOXarg" elementId="org.eclipse.ui.internal.introview" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Welcome" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.ViewIntroAdapterPart"/>
@@ -322,7 +322,11 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_aH1asJymEeigesgqpOXarg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:HandledToolItem" xmi:id="_1eF8QLvWEeiyM-kQc1LBDQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_ZjZQ6JymEeigesgqpOXarg"/>
+=======
+        <children xsi:type="menu:HandledToolItem" xmi:id="_I-NlkLvaEei27YoaTooBJg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_ZjZQ6JymEeigesgqpOXarg"/>
+>>>>>>> 0df7d540a3302ee043382c76eefffdd56656f1af
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_aH2BwJymEeigesgqpOXarg" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -346,7 +350,11 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_aH2BxJymEeigesgqpOXarg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:HandledToolItem" xmi:id="_1eJmoLvWEeiyM-kQc1LBDQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_ZjW0vpymEeigesgqpOXarg"/>
+=======
+        <children xsi:type="menu:HandledToolItem" xmi:id="_I-Qo4LvaEei27YoaTooBJg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_ZjW0vpymEeigesgqpOXarg"/>
+>>>>>>> 0df7d540a3302ee043382c76eefffdd56656f1af
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_aH2o0JymEeigesgqpOXarg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -823,7 +831,10 @@
     <bindings xmi:id="_oowTwJ0lEeilbYq2BMB2ng" keySequence="CTRL+SHIFT+G" command="_ooB7B50lEeilbYq2BMB2ng"/>
   </bindingTables>
   <bindingTables xmi:id="_o-yOIZ0lEeilbYq2BMB2ng" bindingContext="_o-yOIJ0lEeilbYq2BMB2ng"/>
-  <bindingTables xmi:id="_0srScJ1CEeihcsRZNWYW5Q" elementId="com.boothen.jsonedit.jsonEditorScope" bindingContext="_0sWiUJ1CEeihcsRZNWYW5Q"/>
+  <bindingTables xmi:id="_0srScJ1CEeihcsRZNWYW5Q" elementId="com.boothen.jsonedit.jsonEditorScope" bindingContext="_0sWiUJ1CEeihcsRZNWYW5Q">
+    <bindings xmi:id="_8nw4MbvXEeim_JMoIRfvcA" keySequence="CTRL+O" command="_0sUGEJ1CEeihcsRZNWYW5Q"/>
+    <bindings xmi:id="_8nytYLvXEeim_JMoIRfvcA" keySequence="CTRL+SHIFT+F" command="_0sTfAZ1CEeihcsRZNWYW5Q"/>
+  </bindingTables>
   <bindingTables xmi:id="_zXSoEZ3rEeiEwLUwZS6pvQ" bindingContext="_zXSoEJ3rEeiEwLUwZS6pvQ"/>
   <rootContext xmi:id="_Zic1spymEeigesgqpOXarg" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs and Windows" description="Either a dialog or a window is open">
     <children xmi:id="_Zic1s5ymEeigesgqpOXarg" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.eclipse.platform" name="In Windows" description="A window is open">

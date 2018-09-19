@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## gradle
 /.gradle
 /build
@@ -15,6 +16,28 @@
 /.classpath
 /.project
 /bin
+=======
+/download
+/eclipseBin
+
+## gradle
+**/.gradle
+**/build
+
+## ForgeGradle
+/run
+/*/run
+/*.launch
+/*/*.launch
+
+## eclipse
+/eclipse
+**/.settings
+**/.metadata
+**/.classpath
+**/.project
+**/bin
+>>>>>>> 0df7d540a3302ee043382c76eefffdd56656f1af
 
 ## intellij
 /out
@@ -22,4 +45,26 @@
 /*.iml
 /*.ipr
 /*.iws
+<<<<<<< HEAD
 /atlassian-ide-plugin.xml
+=======
+/atlassian-ide-plugin.xml
+/classes
+
+## gedit
+*~
+## most Windows editors
+*.bak
+## OSX
+.DS_Store
+
+## translation reports
+resources/assets/enderio/lang/*.lang.txt
+/ebin/
+
+## local user properties
+user.properties
+
+## temporary build files
+eiostore.jks
+>>>>>>> 0df7d540a3302ee043382c76eefffdd56656f1af
