@@ -1,7 +1,0 @@
-package com.feilena.own.world;
-
-import net.minecraftforge.fml.common.IWorldGenerator;
-
-public class ModWorldGen implements IWorldGenerator{
-
-}
