@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-## gradle
-/.gradle
-/build
-/gradle/wrapper
-/gradlew
-/gradlew.bat
-
-## ForgeGradle
-/run
-
-## eclipse
-/eclipse
-/.settings
-/.metadata
-/.classpath
-/.project
-/bin
-=======
 /download
 /eclipseBin
 
